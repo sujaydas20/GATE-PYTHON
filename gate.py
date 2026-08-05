@@ -1,0 +1,18 @@
+print(2**3**2)
+
+
+a=[1,2,3,]
+b=a
+c=a[:]
+print(a is b,a is c,)
+print(ord ,'s')
+
+
+
+
+
+
+
+l1=[10,20,30,40,50]
+for iyem in l1:
+    print(iyem)
