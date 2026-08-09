@@ -82,3 +82,19 @@ for i in range(1, 5):
         x = x - i
 
 print(x)
+
+
+
+
+
+
+
+
+
+
+n = 100
+
+for i in range(n):
+    j = 1
+    while j < n:
+        j = j * 2
