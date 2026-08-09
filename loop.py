@@ -33,3 +33,25 @@ for i in range(1, 6):
         x = x + 1
 
 print(x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+i = 1
+count = 0
+
+while i <= 100:
+    i = i * 2
+    count = count + 1
+
+print(count)
