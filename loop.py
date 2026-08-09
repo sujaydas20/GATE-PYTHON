@@ -55,3 +55,30 @@ while i <= 100:
     count = count + 1
 
 print(count)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+x = 10
+
+for i in range(1, 5):
+    if i % 2 == 0:
+        x = x + i
+    else:
+        x = x - i
+
+print(x)
