@@ -46,3 +46,19 @@ def f(n):
     return n + f(n-1)
 
 print(f(4))
+
+
+
+
+
+
+
+
+
+A = [1, 2, 3, 4, 5]
+
+for i in range(len(A)):
+    if A[i] % 2 == 1:
+        A[i] = A[i] * 2
+
+print(A)
