@@ -31,3 +31,18 @@ for i in range(1, 4):
         s += 1
 
 print(s)
+
+
+
+
+
+
+
+
+
+def f(n):
+    if n == 0:
+        return 0
+    return n + f(n-1)
+
+print(f(4))
