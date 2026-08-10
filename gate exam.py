@@ -6,3 +6,15 @@ while x > 1:
     count += 1
 
 print(count)
+
+
+
+
+
+
+
+
+
+A = [2, 4, 6, 8, 10, 12, 14]
+
+print(A[1:6:2])
