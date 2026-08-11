@@ -127,3 +127,21 @@ def fun(n):
     return n * fun(n - 2)
 
 print(fun(5))
+
+
+
+
+
+
+
+
+
+n = 16
+i = 1
+
+while i < n:
+    j = 1
+    while j < n:
+        print(i, j)
+        j = j * 2
+    i = i * 2
