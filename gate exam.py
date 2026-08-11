@@ -80,3 +80,38 @@ for i in range(1, 6):
         x -= i
 
 print(x)
+
+
+
+
+
+
+
+
+
+
+
+A = [10, 20, 30, 40, 50]
+
+A[1:4] = [5, 6]
+
+print(A)
+
+
+
+
+
+
+
+
+
+
+
+
+count = 0
+
+for i in range(1, 5):
+    for j in range(i):
+        count += 1
+
+print(count)
