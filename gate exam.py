@@ -115,3 +115,15 @@ for i in range(1, 5):
         count += 1
 
 print(count)
+
+
+
+
+
+
+def fun(n):
+    if n <= 1:
+        return 1
+    return n * fun(n - 2)
+
+print(fun(5))
