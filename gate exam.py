@@ -145,3 +145,19 @@ while i < n:
         print(i, j)
         j = j * 2
     i = i * 2
+
+
+
+
+
+
+
+
+    d = {"a": 2, "b": 3, "c": 4}
+s = 0
+
+for key in d:
+    if d[key] % 2 == 0:
+        s += d[key]
+
+print(s)
