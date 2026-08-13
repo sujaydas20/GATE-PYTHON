@@ -17,3 +17,22 @@ child_dict[1] = [3, 4, 5]
 child_dict[2] = [6, 7, 8]
 
 print(count(child_dict, 0))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def fun(D, S_1, S_2):
+    if S_1 < S_2:
+        D[S_1], D[S_2] = D[S_2], D[S_1]
+        fun(D, S_1 + 1, S_2 - 1)
