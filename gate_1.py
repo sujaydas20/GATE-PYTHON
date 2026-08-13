@@ -69,3 +69,22 @@ for i in range(1, 5):
         count += 1
 
 print(count)
+
+
+
+
+
+
+
+
+
+
+
+
+
+d = {'a': 10, 'b': 20}
+
+d['a'] = d['a'] + 5
+d['c'] = d['b'] + 10
+
+print(d)
