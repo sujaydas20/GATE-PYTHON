@@ -88,3 +88,20 @@ d['a'] = d['a'] + 5
 d['c'] = d['b'] + 10
 
 print(d)
+
+
+
+
+
+
+
+
+
+
+
+x = 0
+
+for i in range(2, 10, 2):
+    x = x + i
+
+print(x)
