@@ -189,3 +189,16 @@ a = [1, 2, 3, 4, 5]
 b = [x * x for x in a if x % 2 == 0]
 
 print(b)
+
+
+
+
+
+
+
+
+n = 10
+
+for i in range(n):
+    for j in range(n):
+        print(i, j)
