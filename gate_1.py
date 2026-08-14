@@ -155,3 +155,11 @@ def fun(n):
     return n + fun(n - 1)
 
 print(fun(4))
+
+
+
+
+
+
+s = "GATE"
+print(s[-1] + s[1])
