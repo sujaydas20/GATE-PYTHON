@@ -119,3 +119,14 @@ print(a[1:5:2])
 
 
 
+
+x = 0
+
+for i in range(3):
+    for j in range(i + 1):
+        x += 1
+
+print(x)
+
+
+
