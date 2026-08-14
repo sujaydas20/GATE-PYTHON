@@ -130,3 +130,17 @@ print(x)
 
 
 
+
+
+
+
+
+def change(a):
+    a.append(10)
+
+x = [1, 2, 3]
+change(x)
+
+print(x)
+
+
