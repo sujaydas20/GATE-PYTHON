@@ -46,3 +46,17 @@ def add(x, y=5):
 
 print(add(10))
 print(add(10, 20))
+
+
+
+
+
+
+
+
+def fun(n):
+    if n == 0:
+        return 0
+    return n + fun(n - 1)
+
+print(fun(4))
