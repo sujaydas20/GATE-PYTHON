@@ -77,3 +77,20 @@ d = {
 d["b"] = d["b"] + 5
 
 print(d["b"])
+
+
+
+
+
+
+
+
+x = 1
+s = 0
+
+while x <= 5:
+    if x % 2 == 0:
+        s += x
+    x += 1
+
+print(s)
