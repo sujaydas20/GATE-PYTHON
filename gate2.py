@@ -33,3 +33,16 @@ b.append(4)
 
 print(a)
 print(b)
+
+
+
+
+
+
+
+
+def add(x, y=5):
+    return x + y
+
+print(add(10))
+print(add(10, 20))
