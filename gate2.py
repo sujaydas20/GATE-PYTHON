@@ -60,3 +60,20 @@ def fun(n):
     return n + fun(n - 1)
 
 print(fun(4))
+
+
+
+
+
+
+
+
+d = {
+    "a": 10,
+    "b": 20,
+    "c": 30
+}
+
+d["b"] = d["b"] + 5
+
+print(d["b"])
