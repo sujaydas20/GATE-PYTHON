@@ -16,3 +16,20 @@ for i in range(1, 10, 2):
     s += i
 
 print(s)
+
+
+
+
+
+
+
+
+
+
+a = [1, 2, 3]
+
+b = a
+b.append(4)
+
+print(a)
+print(b)
