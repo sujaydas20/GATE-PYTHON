@@ -63,3 +63,19 @@ a = fun(1, 2)
 b = fun(3, 4, 5)
 
 print(a + b)
+
+
+
+
+
+
+
+
+
+def fun(**kwargs):
+    x = 0
+    for key in kwargs:
+        x += kwargs[key]
+    return x
+
+print(fun(a=2, b=3, c=5))
