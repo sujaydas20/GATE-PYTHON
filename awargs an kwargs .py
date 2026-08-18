@@ -26,3 +26,15 @@ def fun(**kwargs):
     print(kwargs)
 
 fun(a=10, b=20)
+
+
+
+
+def fun(**kwargs):
+    return kwargs["b"] + kwargs["c"]
+
+print(fun(a=5, b=10, c=15))
+
+
+
+
