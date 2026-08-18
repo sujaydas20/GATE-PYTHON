@@ -79,3 +79,18 @@ def fun(**kwargs):
     return x
 
 print(fun(a=2, b=3, c=5))
+
+
+
+
+
+
+
+
+
+def fun(a, *args, **kwargs):
+    print(a)
+    print(args)
+    print(kwargs)
+
+fun(1, 2, 3, x=4, y=5)
