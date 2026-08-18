@@ -38,3 +38,9 @@ print(fun(a=5, b=10, c=15))
 
 
 
+
+def fun(*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+fun(1, 2, x=10, y=20)
