@@ -16,3 +16,13 @@ def fun(a, *args):
     print(args[1])
 
 fun(10, 20, 30, 40)
+
+
+
+
+
+
+def fun(**kwargs):
+    print(kwargs)
+
+fun(a=10, b=20)
