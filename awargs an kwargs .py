@@ -44,3 +44,22 @@ def fun(*args, **kwargs):
     print(kwargs)
 
 fun(1, 2, x=10, y=20)
+
+
+
+
+
+
+
+
+
+def fun(*args):
+    x = 0
+    for i in args:
+        x += i
+    return x
+
+a = fun(1, 2)
+b = fun(3, 4, 5)
+
+print(a + b)
