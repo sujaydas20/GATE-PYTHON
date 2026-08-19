@@ -25,3 +25,16 @@ def fun(n):
         print(n, end="")
 
 fun(3)
+
+
+
+
+
+
+
+
+a = [1, 2, 3]
+b = a
+b[0] = 10
+
+print(a)
