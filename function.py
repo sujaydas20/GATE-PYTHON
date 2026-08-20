@@ -13,3 +13,15 @@ def fun(a, b):
     return a * b
 
 print(fun(3, 4))
+
+
+
+
+
+x = 10
+
+def fun():
+    x = 20
+    return x
+
+print(x)
