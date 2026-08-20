@@ -25,3 +25,17 @@ def fun():
     return x
 
 print(x)
+
+
+
+
+
+
+
+def f(x):
+    return x + 2
+
+def g(x):
+    return f(x) * 2
+
+print(g(3))
