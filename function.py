@@ -51,3 +51,27 @@ x = [1, 2, 3]
 fun(x)
 
 print(x)
+
+
+
+
+
+
+
+
+
+def fun(*args):
+    return sum(args)
+
+print(fun(1, 2, 3, 4))
+
+
+
+
+
+
+
+def fun(**kwargs):
+    return kwargs["a"] + kwargs["b"]
+
+print(fun(a=10, b=20))
