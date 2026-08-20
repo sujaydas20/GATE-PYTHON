@@ -75,3 +75,18 @@ def fun(**kwargs):
     return kwargs["a"] + kwargs["b"]
 
 print(fun(a=10, b=20))
+
+
+
+
+
+
+
+
+
+def fun(n):
+    if n == 0:
+        return 0
+    return n + fun(n-1)
+
+print(fun(4))
