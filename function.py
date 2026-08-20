@@ -39,3 +39,15 @@ def g(x):
     return f(x) * 2
 
 print(g(3))
+
+
+
+
+
+def fun(a):
+    a.append(4)
+
+x = [1, 2, 3]
+fun(x)
+
+print(x)
