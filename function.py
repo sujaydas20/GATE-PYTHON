@@ -119,3 +119,17 @@ x, y = fun(3, 4)
 
 print(x)
 print(y)
+
+
+
+
+
+
+x = 10
+
+def fun():
+    x = 20
+    print(x)
+
+fun()
+print(x)
