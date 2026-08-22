@@ -133,3 +133,14 @@ def fun():
 
 fun()
 print(x)
+
+
+
+
+def fun(a):
+    a.append(5)
+
+x = [1, 2, 3]
+fun(x)
+
+print(x)
