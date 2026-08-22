@@ -179,3 +179,16 @@ def fun(*args):
 
 print(fun(1, 2, 3))
 print(fun(4, 5))
+
+
+
+
+
+
+
+def fun(n):
+    if n <= 1:
+        return n
+    return fun(n-1) + fun(n-2)
+
+print(fun(5))
