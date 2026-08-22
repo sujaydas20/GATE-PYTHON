@@ -104,3 +104,18 @@ def fun(a, b=5):
 
 print(fun(10))
 print(fun(10, 20))
+
+
+
+
+
+
+
+
+def fun(a, b):
+    return a+b, a*b
+
+x, y = fun(3, 4)
+
+print(x)
+print(y)
