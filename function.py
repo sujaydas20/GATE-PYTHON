@@ -144,3 +144,16 @@ x = [1, 2, 3]
 fun(x)
 
 print(x)
+
+
+
+
+
+
+
+def fun(n):
+    if n == 0:
+        return 0
+    return n + fun(n-1)
+
+print(fun(4))
