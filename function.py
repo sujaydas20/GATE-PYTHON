@@ -90,3 +90,17 @@ def fun(n):
     return n + fun(n-1)
 
 print(fun(4))
+
+
+
+
+
+
+
+
+
+def fun(a, b=5):
+    return a + b
+
+print(fun(10))
+print(fun(10, 20))
