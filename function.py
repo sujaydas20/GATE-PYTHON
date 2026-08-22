@@ -169,3 +169,13 @@ def g(x):
     return f(x) * 2
 
 print(g(3))
+
+
+
+
+
+def fun(*args):
+    return sum(args)
+
+print(fun(1, 2, 3))
+print(fun(4, 5))
