@@ -18,3 +18,18 @@ def fun(n):
     print(n, end=" ")
 
 fun(3)
+
+
+
+
+
+
+
+
+
+def fun(n):
+    if n <= 1:
+        return n
+    return fun(n-1) + n
+
+print(fun(5))
