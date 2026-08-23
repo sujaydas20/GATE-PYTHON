@@ -61,3 +61,15 @@ def fun(n):
     fun(n-1)
 
 fun(6)
+
+
+
+
+
+def fun(n):
+    if n <= 1:
+        return
+    fun(n-1)
+    fun(n-1)
+
+fun(6)
