@@ -27,6 +27,16 @@ fun(3)
 
 
 
+
+
+
+
+
+
+
+
+
+
 def fun(n):
     if n <= 1:
         return n
@@ -86,3 +96,17 @@ def fun(n):
     fun(n - 1)
 
 fun(5)
+
+
+
+
+
+
+
+def fun(n):
+    if n == 0:
+        return
+    fun(n - 1)
+    print(n, end=" ")
+
+fun(4)
