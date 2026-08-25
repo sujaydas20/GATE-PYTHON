@@ -32,3 +32,12 @@ def fun(n):
     return n + fun(n-1)
 
 print(fun(4))
+
+
+
+
+x = 5
+y = 10
+
+print(x < y and y > 7)
+print(x > y or x == 5)
