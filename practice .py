@@ -52,3 +52,18 @@ d[2] = "X"
 
 print(d[2])
 print(len(d))
+
+
+
+
+
+
+
+
+
+s = 0
+
+for i in range(1, 6, 2):
+    s += i
+
+print(s)
