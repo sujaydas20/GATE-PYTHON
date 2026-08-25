@@ -41,3 +41,14 @@ y = 10
 
 print(x < y and y > 7)
 print(x > y or x == 5)
+
+
+
+
+
+d = {1: "A", 2: "B", 3: "C"}
+
+d[2] = "X"
+
+print(d[2])
+print(len(d))
