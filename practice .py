@@ -67,3 +67,15 @@ for i in range(1, 6, 2):
     s += i
 
 print(s)
+
+
+
+
+
+def f(x):
+    return x + 2
+
+def g(x):
+    return f(x * 2)
+
+print(g(3))
