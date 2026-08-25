@@ -79,3 +79,14 @@ def g(x):
     return f(x * 2)
 
 print(g(3))
+
+
+
+
+
+a = [1, 2, 3]
+
+for i in range(len(a)):
+    a[i] = a[i] * 2
+
+print(a)
