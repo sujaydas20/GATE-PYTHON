@@ -154,3 +154,40 @@ node4 = ListNode(4)
 node3 = ListNode(3, node4)
 node2 = ListNode(2, node3)
 head = ListNode(1, node2)
+
+
+
+
+
+
+
+
+
+
+
+def binary_search(arr: list[int], target: int) -> int:
+    """Finds the index of the target in a sorted array using Binary Search."""
+    low = 0
+    high = len(arr) - 1
+    
+    while low <= high:
+        # Calculate mid index (prevents overflow)
+        mid = low + (high - low) // 2
+        
+        if arr[mid] == target:
+            # Target found
+            return mid
+        elif arr[mid] < target:
+            # Target must be in the right half
+            low = mid + 1
+        else:
+            # Target must be in the left half
+            high = mid - 1
+            
+    # If loop finished, the target was not found
+    return -1
+
+# --- Test Cases ---
+sorted_array = [2, 5, 8, 12, 16, 23, 38]
+target_found = 16
+target_not_found = 10
