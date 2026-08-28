@@ -191,3 +191,44 @@ def binary_search(arr: list[int], target: int) -> int:
 sorted_array = [2, 5, 8, 12, 16, 23, 38]
 target_found = 16
 target_not_found = 10
+
+
+
+
+
+
+
+
+
+
+
+
+def max_subarray_sum(arr: list[int], k: int) -> int:
+    """Calculates the maximum sum of any subarray of size k."""
+    n = len(arr)
+    if k > n or k <= 0:
+        return 0
+    
+    # 1. Calculate the sum of the first window (initial window sum)
+    current_window_sum = sum(arr[:k])
+    max_sum = current_window_sum
+    
+    # 2. Slide the window one element at a time
+    # Start the loop from the index k (the element that enters the window)
+    for i in range(k, n):
+        # Update the sum:
+        # Add the new element entering the window (arr[i])
+        # Subtract the element leaving the window (arr[i - k])
+        current_window_sum = current_window_sum + arr[i] - arr[i - k]
+        
+        # Update the maximum sum found so far
+        max_sum = max(max_sum, current_window_sum)
+        
+    return max_sum
+
+# --- Test Cases ---
+arr_1 = [100, 200, 3, 4, 5]
+k_1 = 3  # Expected: 200 + 3 + 4 = 207
+
+arr_2 = [1, 2, 3, 4, 5]
+k_2 = 2  # Expected: 4 (The subarray [4, 5])
