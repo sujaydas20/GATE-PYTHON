@@ -100,3 +100,57 @@ def is_valid_parentheses(s: str) -> bool:
 # --- Test Cases ---
 input_1 = "([]{})"
 input_2 = "{[()]}(" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class ListNode:
+    """Definition for singly-linked list."""
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+def reverse_list(head: ListNode) -> ListNode:
+    """Reverses the linked list iteratively."""
+    prev = None
+    current = head
+    
+    while current:
+        # 1. Store the next node before changing the pointer
+        next_node = current.next
+        
+        # 2. Reverse the current node's pointer
+        current.next = prev
+        
+        # 3. Move pointers one step forward
+        prev = current
+        current = next_node
+        
+    # 'prev' will be the new head (the last node of the original list)
+    return prev
+
+# Helper function to create and print the list (for testing)
+def print_list(head):
+    output = []
+    temp = head
+    while temp:
+        output.append(str(temp.val))
+        temp = temp.next
+    return " -> ".join(output)
+
+# --- Test Case Setup ---
+# Original List: 1 -> 2 -> 3 -> 4
+node4 = ListNode(4)
+node3 = ListNode(3, node4)
+node2 = ListNode(2, node3)
+head = ListNode(1, node2)
