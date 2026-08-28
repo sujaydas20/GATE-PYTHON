@@ -60,3 +60,43 @@ def two_sum(nums: list[int], target: int) -> list[int]:
 nums = [2, 7, 11, 15]
 target = 9
 print("hello")
+
+
+
+
+
+
+
+
+def is_valid_parentheses(s: str) -> bool:
+    """Checks if the given string of brackets is balanced."""
+    # Stack to hold opening characters
+    stack = []
+    
+    # Map closing characters to their required opening counterparts
+    mapping = {")": "(", "]": "[", "}": "{"}
+    
+    for char in s:
+        if char in mapping.values():
+            # It's an opening bracket, push it onto the stack
+            stack.append(char)
+        elif char in mapping.keys():
+            # It's a closing bracket
+            if not stack:
+                # Stack is empty, but we found a closing bracket (e.g., "}")
+                return False
+            
+            # Pop the top element and check if it matches the required opener
+            top_element = stack.pop()
+            if mapping[char] != top_element:
+                return False
+        else:
+            # Handle non-bracket characters if necessary, though not required by the prompt
+            continue
+    
+    # If the stack is empty, all opened brackets were correctly closed
+    return not stack
+
+# --- Test Cases ---
+input_1 = "([]{})"
+input_2 = "{[()]}(" 
