@@ -21,3 +21,42 @@ def is_palindrome(s: str) -> bool:
 # --- Test Cases ---
 input_1 = "A man, a plan, a canal: Panama"
 input_2 = "race a car"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def two_sum(nums: list[int], target: int) -> list[int]:
+    """Finds indices of two numbers that sum to the target."""
+    # Hash map to store: {number: index}
+    num_map = {} 
+    
+    for i, num in enumerate(nums):
+        # Check if the complement (target - num) is already in our map
+        complement = target - num
+        
+        if complement in num_map:
+            # Found the pair! Return the indices
+            return [num_map[complement], i]
+        
+        # If not found, add the current number and its index to the map
+        num_map[num] = i
+        
+    # Should theoretically not be reached if a solution is guaranteed
+    return []
+
+# --- Test Cases ---
+nums = [2, 7, 11, 15]
+target = 9
+print("hello")
