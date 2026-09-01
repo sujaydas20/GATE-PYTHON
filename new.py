@@ -48,3 +48,28 @@ for i in range(1, 8):
     s += i
 
 print(s)
+
+
+
+
+d = {'a': 10, 'b': 20, 'c': 30}
+
+x = d.pop('b')
+d['a'] = d['a'] + x
+
+print(d)
+
+
+
+
+
+
+
+def f(x):
+    return x + 2
+
+def g(x):
+    return f(x) * 2
+
+x = g(3)
+print(f(x))
