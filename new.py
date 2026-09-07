@@ -129,3 +129,17 @@ def f(n):
     return n * f(n-1)
 
 print(f(5))
+
+
+
+x = 5
+
+def f():
+    x = 10
+
+    def g():
+        return x * 2
+
+    return g()
+
+print(f())
