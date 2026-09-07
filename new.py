@@ -143,3 +143,16 @@ def f():
     return g()
 
 print(f())
+
+
+
+
+
+def f(a):
+    for i in range(len(a)):
+        if a[i] % 2 == 0:
+            a[i] = a[i] // 2
+    return a
+
+x = [2, 3, 4, 5, 6]
+print(f(x))
