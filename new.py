@@ -91,3 +91,11 @@ def f(n):
     return n + f(n-2)
 
 print(f(8))
+
+
+
+a = [1, 2, 3]
+b = a
+b[1] = 10
+
+print(a)
