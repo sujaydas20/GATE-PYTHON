@@ -108,3 +108,14 @@ def f(a, b=2):
 
 print(f(3))
 print(f(3, 3))
+
+
+
+
+def f(n):
+    s = 0
+    for i in range(n):
+        s += i
+    return s
+
+print(f(5))
