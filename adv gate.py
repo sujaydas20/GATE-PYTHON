@@ -17,3 +17,15 @@ y = f(x)
 
 print(x)
 print(y)
+
+
+
+
+
+def f(a, b=10):
+    return a + b
+
+x = f(5)
+y = f(5, 20)
+
+print(x + y)
