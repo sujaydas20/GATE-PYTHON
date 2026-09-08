@@ -29,3 +29,13 @@ x = f(5)
 y = f(5, 20)
 
 print(x + y)
+
+
+
+count = 0
+
+for i in range(4):
+    for j in range(i):
+        count += 1
+
+print(count)
