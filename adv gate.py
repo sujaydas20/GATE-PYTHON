@@ -4,3 +4,16 @@ def f(n):
     return f(n-1) + f(n-2)
 
 print(f(6))
+
+
+
+
+def f(a):
+    a[1] = a[0] + a[2]
+    return a
+
+x = [2, 4, 6]
+y = f(x)
+
+print(x)
+print(y)
