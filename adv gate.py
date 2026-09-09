@@ -164,3 +164,12 @@ def f(n):
     return s
 
 print(f(8))
+
+
+
+def f(n):
+    if n <= 0:
+        return 0
+    return n + f(n - 2)
+
+print(f(7))
