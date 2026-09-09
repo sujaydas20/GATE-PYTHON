@@ -108,3 +108,14 @@ y = f(x)
 
 print(x)
 print(y)
+
+
+
+
+def f(x):
+    if x % 2 == 0:
+        return x * 2
+    return x + 2
+
+print(f(4))
+print(f(5))
