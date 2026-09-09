@@ -152,3 +152,15 @@ a = [10, 20, 30, 40, 50]
 
 print(a[1:4])
 print(a[4:1:-1])
+
+
+
+
+def f(n):
+    s = 0
+    for i in range(1, n):
+        if i % 2 == 0:
+            s += i
+    return s
+
+print(f(8))
