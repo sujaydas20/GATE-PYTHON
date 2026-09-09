@@ -95,3 +95,16 @@ def f(n):
     return n + f(n - 2)
 
 print(f(6))
+
+
+
+
+def f(a):
+    a.append(5)
+    return a
+
+x = [1, 2]
+y = f(x)
+
+print(x)
+print(y)
