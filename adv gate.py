@@ -119,3 +119,19 @@ def f(x):
 
 print(f(4))
 print(f(5))
+
+
+
+
+
+x = 10
+
+def f():
+    x = 20
+
+    def g():
+        return x + 5
+
+    return g()
+
+print(f())
