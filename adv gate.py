@@ -144,3 +144,11 @@ def f(n):
     return n + f(n - 2)
 
 print(f(7))
+
+
+
+
+a = [10, 20, 30, 40, 50]
+
+print(a[1:4])
+print(a[4:1:-1])
