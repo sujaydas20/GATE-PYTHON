@@ -84,3 +84,14 @@ def f(n):
     return n + f(n - 2)
 
 print(f(9))
+
+
+
+
+
+def f(n):
+    if n <= 1:
+        return 1
+    return n + f(n - 2)
+
+print(f(6))
