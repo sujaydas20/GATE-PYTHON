@@ -27,3 +27,15 @@ def f(n):
     return s
 
 print(f(10))
+
+
+
+
+x = 5
+
+def f():
+    x = 10
+    return x + 2
+
+print(f())
+print(x)
