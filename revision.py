@@ -61,3 +61,15 @@ y = a[::-3]
 
 print(x)
 print(y)
+
+
+
+def f(d):
+    d["c"] = d["a"] * d["b"]
+    d["a"] = d["c"] - d["b"]
+    return d
+
+x = {"a": 2, "b": 4}
+y = f(x)
+
+print(y)
