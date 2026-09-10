@@ -16,3 +16,14 @@ y = f(x)
 
 print(x)
 print(y)
+
+
+
+
+def f(n):
+    s = 0
+    for i in range(1, n, 2):
+        s += i
+    return s
+
+print(f(10))
