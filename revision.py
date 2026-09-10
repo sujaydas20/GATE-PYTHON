@@ -50,3 +50,14 @@ def f(n):
     return n * f(n-2)
 
 print(f(6))
+
+
+
+
+a = [1, 2, 3, 4, 5, 6, 7]
+
+x = a[1:6:2]
+y = a[::-3]
+
+print(x)
+print(y)
