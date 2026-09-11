@@ -84,3 +84,14 @@ def f(n):
     return n + f(n-3)
 
 print(f(10))
+
+
+
+
+def f(a):
+    for i in range(len(a)):
+        a[i] = a[i] + i
+    return a
+
+x = [1, 2, 3, 4]
+print(f(x))
