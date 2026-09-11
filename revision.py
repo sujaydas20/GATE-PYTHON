@@ -139,3 +139,12 @@ d["a"] = d["a"] + d["b"]
 d["b"] = d["a"] * d["b"]
 
 print(d)
+
+
+
+def f(n):
+    if n <= 1:
+        return 1
+    return f(n-1) + f(n-3)
+
+print(f(5))
