@@ -73,3 +73,14 @@ x = {"a": 2, "b": 4}
 y = f(x)
 
 print(y)
+
+
+
+
+
+def f(n):
+    if n <= 0:
+        return 0
+    return n + f(n-3)
+
+print(f(10))
