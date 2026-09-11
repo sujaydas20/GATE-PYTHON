@@ -119,3 +119,14 @@ def f():
 
 print(f())
 print(x)
+
+
+
+
+a = [2, 4, 6, 8, 10, 12]
+
+x = a[1:5:2]
+y = a[-1:1:-2]
+
+print(x)
+print(y)
