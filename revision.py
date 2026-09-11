@@ -95,3 +95,13 @@ def f(a):
 
 x = [1, 2, 3, 4]
 print(f(x))
+
+
+
+
+def f(n):
+    if n <= 1:
+        return 1
+    return n * f(n-2)
+
+print(f(7))
