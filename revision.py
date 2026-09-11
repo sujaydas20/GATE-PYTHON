@@ -105,3 +105,17 @@ def f(n):
     return n * f(n-2)
 
 print(f(7))
+
+
+
+
+x = 10
+
+def f():
+    x = 20
+    def g():
+        return x + 5
+    return g()
+
+print(f())
+print(x)
