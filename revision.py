@@ -167,3 +167,15 @@ def f(n):
     return n + f(n-2)
 
 print(f(8))
+
+
+
+def f(a):
+    a[0] = a[-1] + 2
+    return a
+
+x = [3, 5, 7]
+y = f(x)
+
+print(x)
+print(y)
