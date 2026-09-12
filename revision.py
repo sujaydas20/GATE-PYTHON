@@ -216,3 +216,13 @@ def f(n):
     return n * f(n-2)
 
 print(f(8))
+
+
+
+a = [10, 20, 30, 40, 50, 60]
+
+x = a[::2]
+y = a[5:0:-2]
+
+print(x)
+print(y)
