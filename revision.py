@@ -190,3 +190,18 @@ def f(n):
     return s
 
 print(f(7))
+
+
+
+x = 5
+
+def f():
+    x = 10
+
+    def g():
+        return x + 2
+
+    return g()
+
+print(f())
+print(x)
