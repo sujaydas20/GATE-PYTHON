@@ -315,3 +315,14 @@ d = {"x": 3, "y": 4}
 f(d)
 
 print(d)
+
+
+
+
+
+def f(n):
+    if n <= 1:
+        return 1
+    return f(n-1) + f(n-3)
+
+print(f(6))
