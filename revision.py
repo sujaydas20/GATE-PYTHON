@@ -289,3 +289,15 @@ for i in range(1, 5):
         count += 1
 
 print(count)
+
+
+
+
+
+
+
+
+
+a = [1, 2, 3, 4, 5, 6, 7]
+
+print(a[5:1:-2])
