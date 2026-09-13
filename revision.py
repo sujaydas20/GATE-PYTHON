@@ -278,3 +278,14 @@ a = f(4)
 b = f(7)
 
 print(a + b)
+
+
+
+
+count = 0
+
+for i in range(1, 5):
+    for j in range(i, 5):
+        count += 1
+
+print(count)
