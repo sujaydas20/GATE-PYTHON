@@ -250,3 +250,17 @@ def f(n):
     return n * f(n - 2)
 
 print(f(7))
+
+
+
+
+
+
+a = [1, 2, 3]
+b = a
+c = b
+
+c.append(4)
+b[0] = 10
+
+print(a)
