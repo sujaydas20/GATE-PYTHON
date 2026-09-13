@@ -264,3 +264,17 @@ c.append(4)
 b[0] = 10
 
 print(a)
+
+
+
+
+def f(x):
+    if x > 5:
+        return x * 2
+    else:
+        return x + 2
+
+a = f(4)
+b = f(7)
+
+print(a + b)
