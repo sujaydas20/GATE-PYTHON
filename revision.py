@@ -363,3 +363,13 @@ B = {3, 4, 5, 6}
 C = A ^ B
 
 print(len(C))
+
+
+
+
+
+a, b = (3, 5)
+
+a, b = b, a + b
+
+print(a, b)
