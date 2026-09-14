@@ -381,3 +381,15 @@ print(a, b)
 x = [i*i for i in range(6) if i % 2 == 0]
 
 print(x)
+
+
+
+
+
+s = "PYTHON"
+
+x = s[1:5]
+y = s[-1::-2]
+
+print(x)
+print(y)
