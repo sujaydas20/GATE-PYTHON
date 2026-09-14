@@ -340,3 +340,14 @@ while x > 0:
     x = x // 3
 
 print(s)
+
+
+
+s = 0
+
+for i in range(1, 8):
+    if i % 2 == 0:
+        continue
+    s += i
+
+print(s)
