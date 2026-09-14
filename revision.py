@@ -373,3 +373,11 @@ a, b = (3, 5)
 a, b = b, a + b
 
 print(a, b)
+
+
+
+
+
+x = [i*i for i in range(6) if i % 2 == 0]
+
+print(x)
