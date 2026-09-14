@@ -351,3 +351,15 @@ for i in range(1, 8):
     s += i
 
 print(s)
+
+
+
+
+
+
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+
+C = A ^ B
+
+print(len(C))
