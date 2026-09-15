@@ -79,3 +79,10 @@ b[0][1] = 10
 
 print(a)
 print(b)
+
+
+
+
+d = {i: i*i for i in range(1, 5)}
+
+print(d[2] + d[4])
