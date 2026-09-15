@@ -22,3 +22,19 @@ while x <= 10:
     x += 2
 
 print(s)
+
+
+
+
+
+d = {i: i*i for i in range(1, 5)}
+
+print(d[2] + d[4])
+
+
+
+
+
+s = "GATE2027"
+
+print(s.count("2") + len(s))
