@@ -86,3 +86,9 @@ print(b)
 d = {i: i*i for i in range(1, 5)}
 
 print(d[2] + d[4])
+
+
+
+
+
+{i: i*i for i in range(1, 5)}
