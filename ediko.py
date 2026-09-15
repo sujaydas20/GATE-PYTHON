@@ -57,3 +57,14 @@ a = [2, 5, 8, 11, 14]
 b = list(filter(lambda x: x % 3 == 2, a))
 
 print(sum(b))
+
+
+
+
+
+
+
+
+a = 2 + 3 * 4 ** 2 // 5
+
+print(a)
