@@ -9,3 +9,16 @@ for num in numbers:
         count[num] = 1
 
 print(count)
+
+
+
+x = 1
+s = 0
+
+while x <= 10:
+    s += x
+    if s > 10:
+        break
+    x += 2
+
+print(s)
