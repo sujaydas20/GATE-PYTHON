@@ -38,3 +38,22 @@ print(d[2] + d[4])
 s = "GATE2027"
 
 print(s.count("2") + len(s))
+
+
+
+
+
+a = [1, 2, 3, 4]
+
+b = list(map(lambda x: x * 2 + 1, a))
+
+print(b[1] + b[3])
+
+
+
+
+a = [2, 5, 8, 11, 14]
+
+b = list(filter(lambda x: x % 3 == 2, a))
+
+print(sum(b))
