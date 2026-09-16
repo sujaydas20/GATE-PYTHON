@@ -92,3 +92,15 @@ print(d[2] + d[4])
 
 
 {i: i*i for i in range(1, 5)}
+
+
+
+
+
+a = [[1, 2], [3, 4]]
+b = a.copy()
+
+b[0][1] = 10
+
+print(a)
+print(b)
