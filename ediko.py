@@ -153,3 +153,9 @@ t = t + "2027"
 
 print(s)
 print(t)
+
+
+a = [2, 4, 6, 7]
+
+print(any(x % 2 == 1 for x in a))
+print(all(x % 2 == 0 for x in a))
