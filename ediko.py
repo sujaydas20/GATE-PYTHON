@@ -133,3 +133,11 @@ for i, x in enumerate(a):
     s += i * x
 
 print(s)
+
+
+
+
+a = {1, 2, 3, 4}
+b = {2, 4, 6}
+
+print(len(a & b))
