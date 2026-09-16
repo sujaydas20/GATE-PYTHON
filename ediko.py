@@ -159,3 +159,16 @@ a = [2, 4, 6, 7]
 
 print(any(x % 2 == 1 for x in a))
 print(all(x % 2 == 0 for x in a))
+
+
+
+
+
+def f(*args):
+    s = 0
+    for x in args:
+        if x > 3:
+            s += x
+    return s
+
+print(f(1, 4, 2, 6, 3, 5))
