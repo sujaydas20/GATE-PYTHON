@@ -122,3 +122,14 @@ a = [1, [2, 3], 4]
 a[1].append(5)
 
 print(a)
+
+
+
+a = [10, 20, 30]
+
+s = 0
+
+for i, x in enumerate(a):
+    s += i * x
+
+print(s)
