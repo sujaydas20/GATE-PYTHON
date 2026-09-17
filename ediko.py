@@ -187,3 +187,17 @@ for x, y in zip(a, b):
     s += x * y
 
 print(s)
+
+
+
+
+
+
+
+
+a = [2, 4, 6, 8]
+
+x = 5 in a
+y = 6 in a
+
+print(x or y)
