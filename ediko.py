@@ -212,3 +212,14 @@ for i in range(3):
 
 else:
     print("Done")
+
+
+
+
+
+
+a = [7, 2, 9, 4, 6]
+
+x = max(a) - min(a)
+
+print(x)    
