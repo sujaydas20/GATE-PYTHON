@@ -242,3 +242,14 @@ print(a[1][0] + a[2][1])
 f = lambda x, y: x if x > y else y
 
 print(f(7, 4) + f(2, 9))
+
+
+
+
+
+try:
+    x = 10 // 0
+except ZeroDivisionError:
+    x = 5
+
+print(x)
