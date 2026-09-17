@@ -172,3 +172,18 @@ def f(*args):
     return s
 
 print(f(1, 4, 2, 6, 3, 5))
+
+
+
+
+
+
+a = [1, 2, 3]
+b = [4, 5, 6]
+
+s = 0
+
+for x, y in zip(a, b):
+    s += x * y
+
+print(s)
