@@ -201,3 +201,14 @@ x = 5 in a
 y = 6 in a
 
 print(x or y)
+
+
+
+
+
+
+for i in range(3):
+    print(i, end=" ")
+
+else:
+    print("Done")
