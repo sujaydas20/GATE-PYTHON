@@ -16,3 +16,12 @@ f = methodcaller("lower")
 
 result = list(map(f, words))
 print(result[1][2:])
+
+
+
+
+
+a = [[1, 2, 3], [4, 5, 6]]
+b = list(zip(*a))
+
+print(b[1][0] + b[2][1])
