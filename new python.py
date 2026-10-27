@@ -59,3 +59,15 @@ d["x"] = 3
 d["y"] = d["x"] + 1
 
 print(d["x"] + d["y"])
+
+
+from enum import IntEnum
+
+class Level(IntEnum):
+    LOW = 1
+    MID = 2
+    HIGH = 3
+
+x = Level.MID
+
+print(x + 2, x == 2, x is 2)
