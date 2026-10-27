@@ -71,3 +71,15 @@ class Level(IntEnum):
 x = Level.MID
 
 print(x + 2, x == 2, x is 2)
+
+
+class A:
+    def __init__(self, x):
+        self.x = x
+    def __delattr__(self, name):
+        if name == 'x':
+            object.__setattr__(self, 'x', 99)
+
+a = A(10)
+del a.x
+print(a.x)
