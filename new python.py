@@ -44,3 +44,18 @@ def f(s):
     return f(s[2:]) + s[1]
 
 print(f("ABCDEFG"))
+
+
+
+
+from collections import UserDict
+
+class D(UserDict):
+    def __setitem__(self, key, value):
+        super().__setitem__(key, value * 2)
+
+d = D()
+d["x"] = 3
+d["y"] = d["x"] + 1
+
+print(d["x"] + d["y"])
