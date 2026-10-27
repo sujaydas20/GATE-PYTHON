@@ -35,3 +35,12 @@ a = Decimal("0.1")
 b = Decimal("0.2")
 
 print(a + b == Decimal("0.3"))
+
+
+
+def f(s):
+    if len(s) <= 1:
+        return s
+    return f(s[2:]) + s[1]
+
+print(f("ABCDEFG"))
