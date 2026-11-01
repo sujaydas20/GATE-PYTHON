@@ -148,3 +148,9 @@ with suppress(ZeroDivisionError):
     print('A')
 
 print('B')
+
+
+
+import statistics
+x = [9, 1, 7, 3]
+print(statistics.median(x), statistics.median_low(x))
