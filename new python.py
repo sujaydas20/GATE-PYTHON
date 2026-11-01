@@ -97,3 +97,13 @@ print(round(2.5), round(3.5), round(4.5))
 a = [1, 2, 3, 4]
 a[1:3] = [8, 9, 10]
 print(a[2], len(a))
+
+
+
+
+from collections import namedtuple
+
+Point = namedtuple('Point', ['x', 'y'])
+p1 = Point(2, 3)
+p2 = p1._replace(y=7)
+print(p1.x + p2.y)
