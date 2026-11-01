@@ -162,3 +162,14 @@ print(statistics.median(x), statistics.median_low(x))
 table = str.maketrans({'a': '1', 'e': '2', 'i': '3'})
 s = 'data science'
 print(s.translate(table))
+
+
+
+
+
+class Position:
+    def __index__(self):
+        return 2
+
+a = [10, 20, 30, 40, 50]
+print(a[:Position()])
