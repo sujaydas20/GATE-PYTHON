@@ -117,3 +117,12 @@ Point = namedtuple('Point', ['x', 'y'])
 p1 = Point(2, 3)
 p2 = p1._replace(y=7)
 print(p1.x + p2.y)
+
+
+
+
+
+import re
+s = 'gate2027'
+result = re.sub(r'(\D+)(\d+)', r'\2-\1', s)
+print(result)
