@@ -107,3 +107,13 @@ Point = namedtuple('Point', ['x', 'y'])
 p1 = Point(2, 3)
 p2 = p1._replace(y=7)
 print(p1.x + p2.y)
+
+
+
+
+from collections import namedtuple
+
+Point = namedtuple('Point', ['x', 'y'])
+p1 = Point(2, 3)
+p2 = p1._replace(y=7)
+print(p1.x + p2.y)
