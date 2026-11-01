@@ -154,3 +154,11 @@ print('B')
 import statistics
 x = [9, 1, 7, 3]
 print(statistics.median(x), statistics.median_low(x))
+
+
+
+
+
+table = str.maketrans({'a': '1', 'e': '2', 'i': '3'})
+s = 'data science'
+print(s.translate(table))
