@@ -83,3 +83,10 @@ class A:
 a = A(10)
 del a.x
 print(a.x)
+
+
+
+
+
+
+print(round(2.5), round(3.5), round(4.5))
