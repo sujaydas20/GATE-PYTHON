@@ -126,3 +126,12 @@ import re
 s = 'gate2027'
 result = re.sub(r'(\D+)(\d+)', r'\2-\1', s)
 print(result)
+
+
+
+
+
+import re
+s = 'gate2027'
+result = re.sub(r'(\D+)(\d+)', r'\2-\1', s)
+print(result)
