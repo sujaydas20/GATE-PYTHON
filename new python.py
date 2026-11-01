@@ -90,3 +90,10 @@ print(a.x)
 
 
 print(round(2.5), round(3.5), round(4.5))
+
+
+
+
+a = [1, 2, 3, 4]
+a[1:3] = [8, 9, 10]
+print(a[2], len(a))
